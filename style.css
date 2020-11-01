@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #8e4821;
+}
+
+.wrap {
+  margin: 20px;
+}
+
+.map {
+  position: relative;
+  border: 2px solid black;
+  background-color: #00984a;
+}
+
+.hole {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #222;
+}
+
+.hole__top-left {
+  top: -20px;
+  left: -20px;
+}
+
+.hole__top-right {
+  top: -20px;
+  right: -20px;
+}
+
+.hole__bottom-left {
+  bottom: -20px;
+  left: -20px;
+}
+
+.hole__bottom-right {
+  bottom: -20px;
+  right: -20px;
+}
+
+.ball {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+}
